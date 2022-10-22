@@ -10,13 +10,19 @@
   },
   "dependencies": {
     "@react-native-community/slider": "^4.3.2",
+    "eslint": "^8.25.0",
+    "eslint-config-universe": "^11.1.0",
     "expo": "~46.0.16",
     "expo-status-bar": "~1.4.0",
+    "prettier": "^2.7.1",
     "react": "18.0.0",
     "react-native": "0.69.6"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9"
+  },
+  "eslintConfig": {
+    "extends": "universe/native"
   },
   "private": true
 }

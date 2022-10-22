@@ -1,24 +1,24 @@
-const initState = {
+export const initState = {
   layers: [
     {
       key: 1,
       name: 'head',
-      selected: 0,
+      selected: 1,
       options: [
         {
           id: 1,
           zindex: 40,
-          file: 'zomboji-11.png'
+          uri: require('../assets/images/zomboji-11.png')
         },
         {
           id: 2,
           zindex: 40,
-          file: 'zomboji-12.png'
+          uri: require('../assets/images/zomboji-12.png')
         },
         {
           id: 3,
           zindex: 48,
-          file: 'zomboji-13.png'
+          uri: require('../assets/images/zomboji-13.png')
         }
       ]
     },
@@ -30,17 +30,17 @@ const initState = {
         {
           id: 1,
           zindex: 30,
-          file: 'zomboji-8.png'
+          uri: require('../assets/images/zomboji-8.png')
         },
         {
           id: 2,
           zindex: 45,
-          file: 'zomboji-9.png'
+          uri: require('../assets/images/zomboji-9.png')
         },
         {
           id: 3,
           zindex: 30,
-          file: 'zomboji-10.png'
+          uri: require('../assets/images/zomboji-10.png')
         }
       ]
     },
@@ -52,17 +52,17 @@ const initState = {
         {
           id: 1,
           zindex: 20,
-          file: 'zomboji-5.png'
+          uri: require('../assets/images/zomboji-5.png')
         },
         {
           id: 2,
           zindex: 20,
-          file: 'zomboji-6.png'
+          uri: require('../assets/images/zomboji-6.png')
         },
         {
           id: 3,
           zindex: 20,
-          file: 'zomboji-7.png'
+          uri: require('../assets/images/zomboji-7.png')
         }
       ]
     },
@@ -74,21 +74,21 @@ const initState = {
         {
           id: 1,
           zindex: 10,
-          file: 'zomboji-2.png'
+          uri: require('../assets/images/zomboji-2.png')
         },
         {
           id: 2,
           zindex: 10,
-          file: 'zomboji-3.png'
+          uri: require('../assets/images/zomboji-3.png')
         },
         {
           id: 3,
           zindex: 10,
-          file: 'zomboji-4.png'
+          uri: require('../assets/images/zomboji-4.png')
         }
       ]
     }
   ]
-}
+};
 
-export default initState
+export default initState;
