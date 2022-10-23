@@ -3,8 +3,13 @@ export const initState = {
     {
       key: 1,
       name: 'head',
-      selected: 1,
+      selected: 0,
       options: [
+        {
+          id: 0,
+          zindex: 0,
+          uri: null
+        },
         {
           id: 1,
           zindex: 40,
@@ -28,6 +33,11 @@ export const initState = {
       selected: 0,
       options: [
         {
+          id: 0,
+          zindex: 0,
+          uri: null
+        },
+        {
           id: 1,
           zindex: 30,
           uri: require('../assets/images/zomboji-8.png')
@@ -50,6 +60,11 @@ export const initState = {
       selected: 0,
       options: [
         {
+          id: 0,
+          zindex: 0,
+          uri: null
+        },
+        {
           id: 1,
           zindex: 20,
           uri: require('../assets/images/zomboji-5.png')
@@ -71,6 +86,11 @@ export const initState = {
       name: 'beard',
       selected: 0,
       options: [
+        {
+          id: 0,
+          zindex: 0,
+          uri: null
+        },
         {
           id: 1,
           zindex: 10,

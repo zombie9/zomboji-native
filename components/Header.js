@@ -6,7 +6,8 @@ const Header = ({ title }) => {
 
 const styles = StyleSheet.create({
   heading: {
-    fontSize: 48,
+    fontSize: 32,
+    lineHeight: 32,
     fontFamily: 'DrawveticaMini',
     color: 'black',
     marginTop: 70
