@@ -7,6 +7,7 @@ import { Context } from './context/Context';
 const Customiser = () => {
   const { config, setConfig } = useContext(Context);
   const { layers } = config;
+
   const handleChange = ({ value, key }) => {
     setConfig(prev => {
       return {
