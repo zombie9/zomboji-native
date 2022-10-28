@@ -5,9 +5,7 @@ import { Context } from '../context/Context';
 import { initState } from '../data/initState';
 
 const RandomReset = () => {
-  const { config, setConfig } = useContext(Context);
-  console.log('config.layers.length', config.layers.length);
-  console.log(Math.floor(Math.random() * config.layers.length));
+  const { setConfig } = useContext(Context);
   const handleRandom = () => {
     setConfig(prev => {
       return {
